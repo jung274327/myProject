@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar  ;   
+import java.util.Calendar;   
 
 import com.ahnlab.sts.common.Util;      
 
@@ -103,43 +103,6 @@ public class SampleFileSizeCheck       {
 		}
 		return false;
 	}
-	
-//	/**
-//	 * �씤�옄濡� 諛쏆� �떆�옉�궇�옄�� �걹�궇�옄�뿉 �젒�닔�맂 �깦�뵆 �젒�닔泥� 肄붾뱶瑜� 寃��깋�븳�떎.
-//	 * @param startdate
-//	 * @param enddate
-//	 * @return
-//	 * @throws Exception
-//	 */
-//	private String[] getReceiptCodeList(String startdate, String enddate) throws Exception {
-//		String query = "select substr(sample_code, 1, 2) code from sp_sample_info \n" +
-//				"where reg_dt between to_date(?||'000000', 'YYYYMMDDHH24MISS') \n" +
-//				"and to_date(?||'235959', 'YYYYMMDDHH24MISS') \n" +
-//				"group by substr(sample_code, 1, 2) ";
-//		
-//		ArrayList<String> list = new ArrayList<String>();
-//		
-//		try {
-//			createConnection();
-//			pstmt = con.prepareStatement(query);
-//			pstmt.setString(1, startdate);
-//			pstmt.setString(2, enddate);
-//			rs = pstmt.executeQuery();
-//			while ( rs.next() ) {
-//				list.add(rs.getString("code"));
-//			}
-//		} catch(Exception e) {
-//			e.printStackTrace();
-//			throw e;
-//		} finally {
-//			try {
-//				if ( rs != null ) rs.close();
-//				if ( pstmt != null ) pstmt.close();
-//				if ( con != null ) con.close();
-//			} catch(Exception ex) {}
-//		}
-//		return list.toArray(new String[0]);
-//	}
 	
 	
 	public static void main(String[] args) throws Exception {
