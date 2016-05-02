@@ -18,7 +18,7 @@ public class SampleFileSizeCheck       {
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	private long notSampleFileSize;
-	private String base_path = "/Volumes/smpbak/sample/extract/";
+	private String base_path = "/test/test/test/extract/";
 	
 	private void createConnection() throws Exception  {
 		try {
