@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
+import java.util.Calendar;   
 
 import com.ahnlab.sts.common.Util;
 
@@ -105,7 +105,7 @@ public class SampleFileSizeCheck {
 	}
 	
 //	/**
-//	 * 인자로 받은 시작날자와 끝날자에 접수된 샘플 접수처 코드를 검색한다.
+//	 * �씤�옄濡� 諛쏆� �떆�옉�궇�옄�� �걹�궇�옄�뿉 �젒�닔�맂 �깦�뵆 �젒�닔泥� 肄붾뱶瑜� 寃��깋�븳�떎.
 //	 * @param startdate
 //	 * @param enddate
 //	 * @return
