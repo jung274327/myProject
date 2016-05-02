@@ -6,13 +6,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;   
+import java.util.Calendar  ;   
 
-import com.ahnlab.sts.common.Util;
+import com.ahnlab.sts.common.Util;      
 
 
 
-public class SampleFileSizeCheck {
+public class SampleFileSizeCheck       {
 	
 	private Connection con;
 	private PreparedStatement pstmt;
