@@ -20,7 +20,7 @@ public class SampleFileSizeCheck {
 	private long notSampleFileSize;
 	private String base_path = "/Volumes/smpbak/sample/extract/";
 	
-	private void createConnection() throws Exception {
+	private void createConnection() throws Exception  {
 		try {
 			String driver = "oracle.jdbc.driver.OracleDriver";
 			String urlSvc = "jdbc:oracle:thin:@172.16.80.89:3559:hao";
