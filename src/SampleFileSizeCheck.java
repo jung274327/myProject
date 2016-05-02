@@ -12,7 +12,7 @@ import com.ahnlab.sts.common.Util;
 
 
 
-public class SampleFileSizeCheck       {
+public class SampleFileSizeCheck {
 	
 	private Connection con;
 	private PreparedStatement pstmt;
