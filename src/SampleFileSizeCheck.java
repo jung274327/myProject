@@ -21,7 +21,7 @@ public class SampleFileSizeCheck {
 	private String base_path = "/test/test/test/extract/";
 	
 	private void createConnection() throws Exception  {
-		try {
+		try {  
 			String driver = "oracle.jdbc.driver.OracleDriver";
 			String urlSvc = "jdbc:oracle:thin:@172.16.80.89:3559:hao";
 			String dbuser = "blueberry";
