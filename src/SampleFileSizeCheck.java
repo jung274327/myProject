@@ -7,10 +7,7 @@ import java.sql.SQLException;
 import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;   
-
 import com.ahnlab.sts.common.Util;      
-
-
 
 public class SampleFileSizeCheck     {
 	
